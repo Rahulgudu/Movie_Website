@@ -1,0 +1,207 @@
+/* 4th code goes here, adding the google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap');
+
+/* 5th code goes here, adding a common style to whole website */
+* {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+}
+
+/* 6th code goes here, creating some variables */
+:root{
+    --main-color: #ffb34a;
+    --hover-color: hsl(37, 94%, 57);
+    --body-color: #1e1e2a;
+    --container-color: #2d2e37;
+    --text-color: #fcfeff;
+}
+
+/* 7th code goes here, styling some common attributes */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+body{
+    background: var(--body-color);
+    color: var(--text-color);
+}
+
+/* 12th code goes here, styling the container in (nav container) */
+.container{
+    max-width: 1060px;
+    margin: auto;
+    width: 100%;
+}
+
+/* 13th code goes here, styling the header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--body-color);
+    z-index: 100;
+}
+
+/* 14th code goes here, styling the nav from (nav container) */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* 15th code goes here, styling the logo */
+.logo{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto 0 0;
+}
+.logo span{
+    color: var(--main-color);
+}
+
+/* 16th code goes here, styling the search-box */
+.search-box{
+    max-width: 240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding: 8px 15px;
+    background: var(--container-color);
+    border-radius: 4rem;
+    margin-right: 1rem;
+}
+
+/* 17th code goes here, styling the input area of search box */
+.bx{
+    cursor: pointer;
+}
+.search-box .bx{
+    font-size: 1.1rem;
+}
+.search-box .bx:hover{
+    color: var(--main-color);
+}
+#search-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    background: transparent;
+    font-size: 0.938rem;
+}
+
+/* 18th code goes here, styling the user-img */
+.user{
+    display: flex;
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+/* 13th code goes here, styling the navbar */
+.navbar {
+    position: fixed;
+    top: 50%;
+    left: 18px;
+    display: flex;
+    transform: translateY(-50%);
+    flex-direction: column;
+    row-gap: 2.1rem;
+}
+
+/* 14th code goes here, styling the nav-links */
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b7b7b7;
+}
+.nav-links:hover, 
+.nav-active{ /*<-- 16th adding the .nav-active class*/
+    color: var(--text-color);
+    transition: 0.3s all linear;
+    transform: scale(1.1);
+}
+/* 17th code goes here */
+.nav-links .bx{
+    font-size: 1.6rem;
+}
+.nav-link-title{
+    font-style: 0.7rem;
+}
+
+/* 19th code goes here, styling the section */
+section{
+    padding: 3rem 0 3rem;
+}
+
+/* 20th code goes here, styling the home */
+.home{
+    position: relative;
+    min-height: 470px;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem !important;
+    border-radius: 0.5rem;
+}
+.home-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.home-text{
+    padding-left: 40px;
+}
+.home-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.home-text p{
+    font-size: 0.940rem;
+    margin: 10px 0 20px;
+    color: var(--main-color);
+}
+.watch-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+    color: var(--text-color);
+}
+.watch-btn .bx{
+    font-size: 21px;
+    background: var(--main-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch-btn .bx:hover{
+    background: var(--hover-color);
+}
+.watch-btn span{
+    font-size: 1rem;
+    font-weight: 400;
+}
