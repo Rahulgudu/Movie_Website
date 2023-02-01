@@ -1,3 +1,4 @@
+<!-- last code number is 31st -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
+    <!-- 29th code goes hre, linking the swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <!-- 1st code goes here, adding the fav icons -->
     <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
 
@@ -78,7 +81,92 @@
                 <span>Watch the trailer</span>
             </a>
         </div>
+    </section>
 
+    <!-- 21st code goes here, adding the popular section -->
+    <section class="popular container" id="popular">
+        <!-- --Heading-- -->
+        <div class="heading">
+            <h2 class="heading-title">Popular Movies</h2>
+        </div>
+        <!-- 23rd code goes here, adding the popular content div -->
+        <!-- note: before adding something to this div go 24th step -->
+        <div class="popular-content swiper"> <!--26th code goes here, adding swiper class-->
+            <!-- 27th code goes here, making the swiper-wrapper class -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 31st code goes here, just copy the swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
 
 
 
@@ -88,9 +176,10 @@
 
 
 
-
+    <!-- 30th code goes here, linkig swiper js -->
+    <script src="js/swiper-bundle.min.js"></script>
 
     <!-- 3rd code goes here, linking to the js -->
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
