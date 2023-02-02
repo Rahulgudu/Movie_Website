@@ -1,4 +1,4 @@
-<!-- last code number is 31st -->
+<!-- last code number is 48th -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,6 +88,11 @@
         <!-- --Heading-- -->
         <div class="heading">
             <h2 class="heading-title">Popular Movies</h2>
+            <!-- 38th code goes here, making the swiper-btn div and copy pasting from below-->
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </div>
         <!-- 23rd code goes here, adding the popular content div -->
         <!-- note: before adding something to this div go 24th step -->
@@ -98,7 +103,7 @@
                     <div class="movie-box">
                         <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
                         <div class="box-text">
-                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <h2 class="movie-title">Spider-Man: No Way <br> Home</h2>
                             <span class="movie-type">Action</span>
                             <a href="#" class="watch-btn play-btn">
                                 <i class="bx bx-right-arrow"></i>
@@ -110,9 +115,23 @@
                 <!-- 31st code goes here, just copy the swiper-slide -->
                 <div class="swiper-slide">
                     <div class="movie-box">
-                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <img src="img/popular-movie-2.jpg" alt="" class="movie-box-img">
                         <div class="box-text">
-                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <h2 class="movie-title">Jungle Cruise</h2>
+                            <span class="movie-type">Action/Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Loki</h2>
                             <span class="movie-type">Action</span>
                             <a href="#" class="watch-btn play-btn">
                                 <i class="bx bx-right-arrow"></i>
@@ -124,24 +143,10 @@
 
                 <div class="swiper-slide">
                     <div class="movie-box">
-                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <img src="img/popular-movie-4.jpg" alt="" class="movie-box-img">
                         <div class="box-text">
-                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
-                            <span class="movie-type">Action</span>
-                            <a href="#" class="watch-btn play-btn">
-                                <i class="bx bx-right-arrow"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="swiper-slide">
-                    <div class="movie-box">
-                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
-                        <div class="box-text">
-                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
-                            <span class="movie-type">Action</span>
+                            <h2 class="movie-title">Squid Game</h2>
+                            <span class="movie-type">Action/Drama</span>
                             <a href="#" class="watch-btn play-btn">
                                 <i class="bx bx-right-arrow"></i>
                             </a>
@@ -151,9 +156,9 @@
 
                 <div class="swiper-slide">
                     <div class="movie-box">
-                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <img src="img/popular-movie-5.jpg" alt="" class="movie-box-img">
                         <div class="box-text">
-                            <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                            <h2 class="movie-title">The Falcon and The Winter Soilder</h2>
                             <span class="movie-type">Action</span>
                             <a href="#" class="watch-btn play-btn">
                                 <i class="bx bx-right-arrow"></i>
@@ -162,17 +167,158 @@
                     </div>
                 </div>
 
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Hawkeye</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">The Agents of S.H.I.E.L.D</h2>
+                            <span class="movie-type">Action/Sci-Fiction</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">The Fash</h2>
+                            <span class="movie-type">Action/Sci-Fiction</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+
+            <!-- here the these button will be shown on the div side by side, so comment this form here and go to code 38 -->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
         </div>
-
-
-
     </section>
 
 
+    <!-- 42nd code goes here, making the Movies Section -->
+    <div class="movies container" id="movies">
+        <!-- 43rd code goes here, copying the header from above section -->
+        <!-- --Heading-- -->
+        <div class="heading">
+            <h2 class="heading-title">Movies And Shows</h2>
+            <!-- <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div> -->
+        </div>
+
+        <!-- 44th code goes here, adding the movies-content div and coping the movie-box div from above section -->
+        <!-- --Movies Content-- -->
+        <div class="movies-content">
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- 45th code goes here, coping the above code -->
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Fash</h2>
+                    <span class="movie-type">Action/Sci-Fiction</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
