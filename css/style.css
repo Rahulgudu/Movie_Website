@@ -299,4 +299,46 @@ section{
 .movies-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(247px,1fr));
+    gap: 1.5rem;
 }
+
+/* 48th code goes here, adding the hover effect */
+.movies-content .movie-box:hover .movie-box-img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* adding extra hover effect to popular-section also */
+.popular-content .movie-box:hover .movie-box-img {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+/* 49th code goes here, styling the next-page */
+.next-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+/* 50th code goes here, styling the next-btn */
+.next-btn{
+    background: var(--main-color);
+    padding: 12px 12px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.next-btn:hover{
+    background: var(--hover-color);
+    transition: 0.3s all linear;
+}
+
+/* 51st code goes here, adjusting the copyright */
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+/* 52nd code is to make play_movie.html */
+ 
