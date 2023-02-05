@@ -19,6 +19,21 @@
     --container-color: #2d2e37;
     --text-color: #fcfeff;
 }
+/* 79th code goes here, adding a custom scroll-bar */
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+}
+
+/* 78th code goes here, adding the secletion color */
+::selection{
+    background: var(--main-color);
+    color: var(--text-color);
+}
+
 
 /* 7th code goes here, styling some common attributes */
 a{
@@ -82,7 +97,7 @@ header{
     padding: 8px 15px;
     background: var(--container-color);
     border-radius: 4rem;
-    margin-right: 1rem;
+    margin-right: 1rem; 
 }
 
 /* 17th code goes here, styling the input area of search box */
@@ -120,9 +135,9 @@ header{
 .navbar {
     position: fixed;
     top: 50%;
+    transform: translateY(-50%);
     left: 18px;
     display: flex;
-    transform: translateY(-50%);
     flex-direction: column;
     row-gap: 2.1rem;
 }
@@ -150,7 +165,7 @@ header{
 
 /* 19th code goes here, styling the section */
 section{
-    padding: 3rem 0 3rem;
+    padding: 3rem 0 2rem;
 }
 
 /* 20th code goes here, styling the home */
@@ -342,3 +357,5 @@ section{
 
 /* 52nd code is to make play_movie.html */
  
+
+
